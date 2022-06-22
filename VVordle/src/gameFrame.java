@@ -426,14 +426,7 @@ public class gameFrame extends JFrame implements ActionListener,KeyListener{
 		}
 	}
 	public void recWord() { // $
-		
-		if(possibleWords.size() > 0) {
-			Random rand = new Random();
-			int RecIndex = rand.nextInt(possibleWords.size());
-			RecWord = possibleWords.get(RecIndex);
-		}
-		
-		/*
+				
 		for(int b = 0; b < bestWordsList.size(); b++) {
 			if(possibleWords.contains(bestWordsList.get(b))) {
 				RecWord = bestWordsList.get(b);
@@ -445,7 +438,7 @@ public class gameFrame extends JFrame implements ActionListener,KeyListener{
 			int RecIndex = rand.nextInt(possibleWords.size());
 			RecWord = possibleWords.get(RecIndex);
 		}
-		*/
+		
 	}
 	Boolean isInsane = false;
 
